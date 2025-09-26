@@ -1,5 +1,7 @@
 # UART-LED-Visual-Demonstrator---Part-2-Mobile-Decoder
 
+#### main.dart and camera.screen.dart goes inside your lib folder inside your flutter project.
+
 ## Project Overview</br></br>
 
 ### The Complete System:
