@@ -29,7 +29,7 @@ What it does: Watches LED through camera, converts light pulses back to text val
 
 <pre>Arduino (Part 1)                Phone (Part 2)</br>
        ↓                                ↓</br>
-"Hello World" → UART → LED blinks → Camera sees → Decodes → "Hello"</pre></br>
+"Hello World" → UART → LED blinks → Camera sees → Decodes → "Hello ..."</pre></br>
 
 ### Standalone Capability:
 * This app can also work independently with:
