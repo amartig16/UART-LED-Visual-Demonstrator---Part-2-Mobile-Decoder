@@ -10,15 +10,20 @@ Hardware: Arduino + LED
 
 Role: Sends messages by blinking LED in UART protocol
 
-What it does: Converts text like "Hello World" into light pulses
-link: https://github.com/amartig16/uart-led-visual-demostrator-part1/blob/main/README.md</br></br>
+What it does: Converts text like "Hello World" into light pulses</br></br>
+link to part 1: https://github.com/amartig16/uart-led-visual-demostrator-part1/blob/main/README.md</br></br>
 
 ### Part 2: Flutter Decoder (This App)
-Hardware: Smartphone + Camera
+
+Dependencies (goes inside your pubspec.yaml in Flutter): </br>
+  camera: ^0.11.0+2 </br>
+  camera_platform_interface: ^2.6.2 </br>
+
+Hardware: Smartphone with camera
 
 Role: Receives and decodes messages from blinking LED
 
-What it does: Watches LED through camera, converts light pulses back to text</br></br>
+What it does: Watches LED through camera, converts light pulses back to text values.</br></br>
 
 ### How the Two Parts Work Together:
 
