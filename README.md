@@ -96,5 +96,5 @@ Where hardware meets software through the magic of light!
 
 ***Note: 
 * You can use python to translate app logged values into words.
-* Message is received like this: "H" = 0 (start bit) + 10100110 ("H" in binary in reverse) + 1 (Stop bit) = 0101001101    
+* Message is received like this: "H" = 0 (start bit) + 00010010 ("H" in binary in reverse) + 1 (Stop bit) = 0000100101  (this is how it is going to look like in the ligh to text in reverse)  
 * Arduino starts with the last bit and "pushes it to the rightmost place"
