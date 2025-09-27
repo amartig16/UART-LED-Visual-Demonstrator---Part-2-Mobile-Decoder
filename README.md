@@ -25,11 +25,14 @@ Role: Receives and decodes messages from blinking LED
 
 What it does: Watches LED through camera, converts light pulses back to text values.</br></br>
 
-### How the Two Parts Work Together:
+### Part 3 (Temporary): 
+Python script and tutorial that reads the data gathered from our app into readable text. [LINK COMING SOON]  
+
+### How the first Two Parts Work Together:
 
 <pre>Arduino (Part 1)                Phone (Part 2)</br>
        ↓                                ↓</br>
-"Hello World" → UART → LED blinks → Camera sees → Decodes → "Hello ..."</pre></br>
+"Hello World" → UART → LED blinks → Camera sees → Decodes → "Hello ..."(in values of brightness for now)</pre></br>
 
 ### Standalone Capability:
 * This app can also work independently with:
