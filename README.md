@@ -9,9 +9,9 @@ Part 1: Arduino Transmitter
 Hardware: Arduino + LED
 
 Role: Sends messages by blinking LED in UART protocol
-link: https://github.com/amartig16/uart-led-visual-demostrator-part1/blob/main/README.md
 
-What it does: Converts text like "Hello World" into light pulses</br></br>
+What it does: Converts text like "Hello World" into light pulses
+link: https://github.com/amartig16/uart-led-visual-demostrator-part1/blob/main/README.md</br></br>
 
 ### Part 2: Flutter Decoder (This App)
 Hardware: Smartphone + Camera
