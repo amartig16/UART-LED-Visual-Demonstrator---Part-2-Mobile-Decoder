@@ -105,3 +105,8 @@ Where hardware meets software through the magic of light!
 * You can use python to translate app logged values into words.
 * Message is received like this: "H" = 0 (start bit) + 00010010 ("H" in binary in reverse) + 1 (Stop bit) = 0000100101  (this is how it is going to look like in the Decoder app. In reverse)  
 * Arduino starts with the last bit and "pushes it to the rightmost place"
+
+### Troublesoot:</br>
+* Be close to the LED when taking readings
+* Be in a place where there is little to no ambient ligh so bright levels are clearly visible for your camera.
+* Make sure the baud rate is low enough for your camera to register LED's state changes. in Arduino: change const int baudRate = 1; (from 5 to 1) this will equal to about one LED pulse per second. Thus, reducing noise in the values and making it easier for your camera to register changes.
