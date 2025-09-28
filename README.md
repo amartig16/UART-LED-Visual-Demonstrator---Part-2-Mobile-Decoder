@@ -1,6 +1,8 @@
 # UART-LED-Visual-Demonstrator---Part-2-Mobile-Decoder
 
-#### main.dart and camera.screen.dart goes inside your lib folder inside your flutter project.</br></br>
+## ****If this project is useful to you, share your opinions in the comments section****<br> 
+## What problem do you have that this project solved?</br></br>
+
 
 ## Project Overview</br>
 
@@ -14,6 +16,8 @@ What it does: Converts text like "Hello World" into light pulses</br></br>
 link to part 1: https://github.com/amartig16/uart-led-visual-demostrator-part1/blob/main/README.md</br></br>
 
 ### Part 2: Flutter Decoder (This App)
+
+#### main.dart and camera.screen.dart goes inside your lib folder inside your flutter project.</br></br>
 
 Dependencies (goes inside your pubspec.yaml in Flutter): </br>
   camera: ^0.11.0+2 </br>
