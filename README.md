@@ -35,9 +35,9 @@ The third part of this project is a python script that takes the values obtained
 
 ### How the first Two Parts Work Together:
 
-<pre>Arduino (Part 1)                Phone (Part 2)</br>
-       ↓                                ↓</br>
-"Hello World" → UART → LED blinks → Camera sees → Decodes → "Hello ..."(in values of brightness for now)</pre></br>
+<pre>Arduino (Part 1)                Phone (Part 2)                                        Python (Part 3)</br>
+       ↓                                ↓                                                        ↓</br>
+"Hello World" → UART → LED blinks → Camera sees → Decodes → "125 (brightness values) ..."  → Trnslates values to text </pre></br>
 
 ### Standalone Capability:
 * This app can also work independently with:
