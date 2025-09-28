@@ -30,7 +30,8 @@ Role: Receives and decodes messages from blinking LED
 What it does: Watches LED through camera, converts light pulses back to text values.</br></br>
 
 ### Part 3 (Temporary): 
-Python script and tutorial that reads the data gathered from our app into readable text. [LINK COMING SOON]  
+The third part of this project is a python script that takes the values obtained in part 2 and outputs text.</br>
+### Part 3 Repository: [https://github.com/amartig16/UART-LED-Visual-Demonstrator---Part-3-Python-UART-to-text]
 
 ### How the first Two Parts Work Together:
 
